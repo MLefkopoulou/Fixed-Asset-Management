@@ -5,8 +5,11 @@ Fixed Asset Management is a web application that consist of 3 parts:
 > the authentication midleware keycloak
 This application was developed during the preparation of my diploma thesis for the department of University of Thessaly electrical and computer engineering.
 Is an application capable to manage fixed assets and daily transactions.
-************************************************************************************************************************************************************************
+***********************************************************************************************************************************************************************
 FUNCTIONALITY
+
+
+
 Teams mode: The user can create a team to share fixed assets and transactions. It is useful for teams with common transactions and fixrd asset and also for companies.
 The user can delete the team and with thiw action all the data that belong to the team are deleted too. User can get a unique code for each team. User can also join a team 
 with this unique code or unjoin from a team that he is already member. Moreover he cam choose to connect as team to add,delete or update the data that belongs to team.
