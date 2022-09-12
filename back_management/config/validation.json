@@ -1,0 +1,182 @@
+{
+    "validation": {
+        "UserOk":{
+            "code":"U00",
+            "msg":"User created"
+        },
+        "UserError":{
+            "code":"U01",
+            "msg":"Error! User does not created"
+        },
+        "UserUpdate":{
+            "code":"U02",
+            "msg":"Profile data are successfully updated"
+        },
+        "UserUpdateError":{
+            "code":"U03",
+            "msg":"Error! Profile does not updated"
+        },
+        "TeamCreate":{
+            "code":"T00",
+            "msg":"Team is created successfully"
+        },
+        "TeamJoin":{
+            "code":"T01",
+            "msg":"You successfully join the team"
+        },
+        "TeamData":{
+            "code":"T02",
+            "msg":"Team's data returned successfully'"
+        },
+        "TeamError":{
+            "code":"T03",
+            "msg":"An error occur on query"
+        },
+        "TeamJoinError":{
+            "code":"T04",
+            "msg":"You are already joined "
+        },
+        "TeamUnjoined":{
+            "code":"T05",
+            "msg":"You unjoined successfully"
+        },
+        "TeamUpdate":{
+            "code":"T06",
+            "msg":"Team title update successfully"
+        },
+
+        "TeamDoesNotExist":{
+            "code":"T07",
+            "msg":"Team with this code does not exist"
+        },
+        "TeamDeleted":{
+            "code":"T08",
+            "msg":"Team deleted successfully"
+        },
+        "CategoryError":{
+            "code":"C00",
+            "msg":"An error occured.Category do not created"
+        },
+        "CategoryOk":{
+            "code":"C01",
+            "msg":"Category created successfully"
+        },
+        "CategoryData":{
+            "code":"C02",
+            "msg":"Categories data returned successfully"
+        },
+        "CategoryUpdate":{
+            "code":"C03",
+            "msg":"Category updates  successfully"
+        },
+        "CategoryDeleted":{
+            "code":"C04",
+            "msg":"Category deleted  successfully"
+        },
+        "CategoryUpdateError":{
+            "code":"C05",
+            "msg":"Error! Category does not updated"
+        },
+        "CategoryDeleteError":{
+            "code":"C06",
+            "msg":"Error! Category does not deleted"
+        },
+        "FixedAssetOk":{
+            "code":"FA00",
+            "msg":"You successfully create a new fixed assset"
+        },
+        "FixedAssetError":{
+            "code":"FA01",
+            "msg":"An error occured at fixed asset!!!"
+        },   
+        "FixedAssetData":{
+            "code":"FA02",
+            "msg":"Data for fixed assets are returned"
+        },
+        "FixedAssetUpdate":{
+            "code":"FA03",
+            "msg":"Fixed Asset updated successfully"
+        },
+        "FixedAssetDelete":{
+            "code":"FA04",
+            "msg":"Fixed Asset deleted successfully"
+        },
+        "ScenarioErrorUpdate":{
+            "code":"S00",
+            "msg":"An error occur on scenarios update"
+        },
+        "ScenarioErrorAdd":{
+            "code":"S01",
+            "msg":"The scenario does not added"
+        },
+        "ScenarioOk":{
+            "code":"S02",
+            "msg":"Scenario is added successfully"
+        },
+        "ScenarioUpdated":{
+            "code":"S03",
+            "msg":"Scenario is updated successfully"
+        },
+        "ScenarioDelete":{
+            "code":"S04",
+            "msg":"Scenario is deleted successfully"
+        },
+        "ScenarioIsUsed":{
+            "code":"S05",
+            "msg":"Scenario is used on transaction so it can not deleted"
+        },
+        "AcountsOK":{
+            "code":"A00",
+            "msg":"The account is created successfully"
+        },
+        "AcountsData":{
+            "code":"A01",
+            "msg":"The account data are returned successfully"
+        },
+        "AcountsError":{
+            "code":"A02",
+            "msg":"An error occur while changing account database"
+        },
+        "AcountsUpdate":{
+            "code":"A03",
+            "msg":"The account updated successfully"
+        },
+        "AcountsDeleted":{
+            "code":"A04",
+            "msg":"The account deleted successfully"
+        },
+        "AcountsIsUsed":{
+            "code":"A05",
+            "msg":"The account is used on transactions, can not deleted"
+        },
+        "ExpencseError":{
+            "code":"E00",
+            "msg":"An error occured while proccessing the expense"
+        },
+        "ExpencseOk":{
+            "code":"E01",
+            "msg":"The expense created successfully"
+        },
+        "ExpencseData":{
+            "code":"E02",
+            "msg":"Expenses data returned successfully"
+        },
+        "ExpencseDelete":{
+            "code":"E03",
+            "msg":"Expenses deleted successfully"
+        },
+        "ExpencseUpdate":{
+            "code":"E04",
+            "msg":"Expense updated successfully"
+        }
+    
+    },
+    "authentication":{
+        "SesionExpired":{
+            "code":"AUTH00",
+            "msg":"Your session has expired"
+        }
+
+    }
+
+}

@@ -1,0 +1,34 @@
+@import "./variables.css";
+
+
+.dropdownMenu{
+  
+    list-style-type: none;
+    width: 15rem;
+    text-align: center;
+    z-index: 12;
+    background-color: var(--purple);
+    right: 0; 
+    padding-top: 4.5rem;    
+    position: fixed;
+}
+.dropdownMenu li{
+    padding: 1.25rem 0.625rem;
+    border-top: 1px solid;
+    color: var(--backcolor);
+
+}
+.dropdownMenu li p {
+    width: 100%;
+    color:var(--backcolor)
+   
+}
+.dropdownMenu li:hover{
+    background-color: var(--backcolor);
+    
+}
+.dropdownMenu li:hover p{
+    color:var(--purple)
+
+    
+}

@@ -1,0 +1,86 @@
+@import url(variables.css);
+.accounts_container{
+    width: 100%;
+    min-height: 50rem;
+    position: relative;
+    top: 12rem;  
+    z-index: 1;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    padding-top: 3rem;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+    background-color: var(--backcolor);
+
+}    
+
+
+.left_accounts{
+    width: 20%;
+    background-color: var(--backcolor);
+    background-image: url("../images/accounts.png");
+    background-repeat:  repeat;
+    background-size: 14rem;
+
+}
+.right_accounts{
+    width: 20%;
+    background-color: var(--backcolor);
+    background-image: url("../images/accounts.png");
+    background-repeat:  repeat;
+    background-size: 14rem;
+
+}
+.middle_accounts{
+    width: 60%;
+    background-color: var(--backcolor);
+    flex-direction: column;
+    display: flex;
+
+
+}
+.button_account{
+text-align: center;
+padding-left: 5rem;
+padding-right: 5rem;
+
+}
+
+.account-component{
+    height: 6rem;
+    width:100%;
+    flex-direction: row;
+    display: flex;
+    position: relative;
+    background-color:var(--component) ;
+    box-shadow: 0.20rem 0.20rem  0.20rem  var(--ligth_purple);
+    border-radius:2rem;
+    float:left;
+    margin-bottom: 2rem;
+
+}
+.account_image{
+    padding: 1rem;
+    width: 20%;
+    background-image: url(../images/acc.ico);
+    background-size: 4rem;
+    background-repeat:  no-repeat;
+
+}
+.account_title{
+    width: 60%;
+    padding: 1.5rem;
+    text-align: canter;
+    flex-direction: column;
+    display: flex;
+}
+.account_update{
+    float:left;
+    width: 5%;
+    padding: 1.5rem;
+    text-align: right;
+    color: var(--purple);
+}
+

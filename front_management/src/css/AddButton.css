@@ -1,0 +1,15 @@
+@import url(./variables.css);
+
+.add-button{
+    background-image: linear-gradient(to right, var(--ligth_green), var(--purple));
+    border: none;
+    color: var(--backcolor);
+    /* padding: 20px; */
+    text-align: center;
+    display: inline-block;
+    font-size: 1.5rem;
+    margin: 2rem 1rem;
+    border-radius:4rem;
+    width: 18rem;
+    height: 4rem;
+}

@@ -1,0 +1,76 @@
+@import url(./variables.css);
+.fa_box{
+    height:26rem;
+    width:80%;
+    position: relative;
+    background-color:var(--component);
+    box-shadow: 0.3rem 0.3rem  0.3rem  var(--purple);
+    text-align: center;
+    border-radius:3rem;
+    color: var(--purple);
+    
+}
+.image_fa{
+    height: 14rem;
+}
+img{
+    padding: 1rem;
+    border-radius:3rem;
+    height: 14rem;
+    max-width: 100%;
+ 
+}
+.title_fa{
+    height: 4rem;
+    padding-top: 1rem;
+    text-align: center;
+    color: var(--purple);
+}
+
+.description_fa{
+    padding: 0.5rem;
+    color: black;
+    height: 4rem;
+    width: 100%;
+}
+.qr_button{
+    background-color: var(--backcolor);
+    border-radius:2rem;
+    color: var(--purple);
+    padding: 0.35rem;
+    height: 2.8rem;
+    width: 10rem;
+    border:  0.15rem solid var(--purple);
+}
+/* .left_cat{
+    width: 50%;
+    float: left;
+
+
+}
+.right_cat{
+    width: 50%;
+    float: left;
+
+
+} */
+.left_button_qr{
+    padding-left: 2rem;
+    float: left;
+}
+.right_button_dl{
+    padding-right: 2rem;
+
+    float: right;
+}
+
+/* .image_button_cat{
+    background-color: var(--backcolor);
+    border-radius:4rem;
+    color: var(--purple);
+    padding: 0.35rem;
+    height: 2.8rem;
+    width: 2.8rem;
+    border:  0.15rem solid var(--purple);
+} */
+

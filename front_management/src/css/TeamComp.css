@@ -1,0 +1,77 @@
+@import url(./variables.css);
+.team_box{
+    height:15rem;
+    width:85%;
+    position: relative;
+    background-color:var(--green-white) ;
+    box-shadow: 0.20rem 0.20rem  0.20rem  var(--shadow_green);
+    text-align: center;
+    border-radius:2rem;
+    color: var(--purple);
+    
+}
+.title{
+    height: 5rem;
+    padding-top: 2rem;
+    text-align: center;
+}
+.connect{
+    height: 5rem;
+    padding: 1rem;
+    
+
+}
+.down{
+    padding: 1rem;
+
+    height: 5rem;
+    width: 100%;
+}
+.left{
+    width: 50%;
+    float: left;
+
+
+}
+.right{
+    width: 50%;
+    float: left;
+
+
+}
+.left_button{
+    
+    float: left;
+}
+.right_button{
+    float: right;
+}
+
+.image_button{
+    background-color: var(--backcolor);
+    border-radius:4rem;
+    color: var(--purple);
+    padding: 0.35rem;
+    height: 2.8rem;
+    width: 2.8rem;
+    border:  0.15rem solid var(--purple);
+}
+.image_text_button{
+    background-color: var(--backcolor);
+    border-radius:2rem;
+    color: var(--purple);
+    padding: 0.35rem;
+    height: 2.8rem;
+    width: 8rem;
+    border:  0.3rem solid var(--purple);
+
+}
+.connect_button{
+    background-color: var(--purple);
+    border-radius:4rem;
+    color: var(--backcolor);
+    padding: 0.35rem;
+    height: 2.8rem;
+    width: 7rem;
+    border:  0.15rem solid var(--purple);
+}

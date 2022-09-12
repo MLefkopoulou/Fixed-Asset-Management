@@ -1,0 +1,65 @@
+@import url(./variables.css);
+
+.add-cont{
+    height: 8rem;
+    width: 100%;
+    top: 14rem;
+    z-index: 5;
+    position: fixed;
+    text-align: center;
+    background-color: var(--backcolor);   
+}
+.input-border{
+    border:0.20rem solid var(--ligth_green);
+}
+
+.input-border:focus {
+    border:0.20rem solid var(--ligth_green);
+    box-shadow: 0.20rem 0.20rem  0.20rem  var(--shadow_green);
+}
+.close_button{
+    background-color:var(--backcolor) ;
+    border-color: var(--ligth_green);
+    color:var(--purple);
+    border-radius:3rem;
+
+}
+.close_button:hover{
+    background-color:var(--purple) ;
+    border-color: var(--ligth_green);
+    color:var(--backcolor);
+    border-radius:3rem;
+
+}
+.close_button:focus{
+    background-color:var(--purple) ;
+    border-color: var(--ligth_green);
+    color:var(--backcolor);
+    border-radius:3rem;
+
+}
+.action_button{
+    background-color:var(--ligth_green) ;
+    border-color: var(--ligth_green);
+    color:var(--purple);
+    border-radius:3rem;
+
+}
+.action_button:hover{
+    background-color:var(--purple) ;
+    border-color: var(--ligth_green);
+    color:var(--ligth_green);
+    border-radius:3rem;
+
+}
+.action_button:focus{
+    background-color:var(--purple) ;
+    border-color: var(--ligth_green);
+    color:var(--ligth_green);
+    border-radius:3rem;
+
+}
+
+.title{
+    color:var(--purple)
+}

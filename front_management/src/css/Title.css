@@ -1,0 +1,31 @@
+@import "./variables.css";
+
+.title-cont{
+    height: 14rem;
+    width: 100%;
+    padding-top: 3.5rem;
+    z-index: 5;
+    position: fixed;
+    flex-direction: column;
+    display: flex;
+    background-color: var(--backcolor);
+}
+
+h1{
+    color:var(--purple);
+    font-weight: bold;
+   
+    font-family: Cinzel, serif;
+    font-size: 4rem; 
+}
+.user{
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    flex-direction: row;
+    display: flex;
+  
+}
+.title{
+    text-align: center;
+   
+}
