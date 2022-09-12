@@ -1,8 +1,8 @@
 # Fixed-Asset-Management
 Fixed Asset Management is a web application that consist of 3 parts:
-> the front-end
-> the back-end
-> the authentication midleware keycloak
+> the front-end\\
+> the back-end\\
+> the authentication midleware keycloak\\
 This application was developed during the preparation of my diploma thesis for the department of University of Thessaly electrical and computer engineering.
 Is an application capable to manage fixed assets and daily transactions.
 ***********************************************************************************************************************************************************************
